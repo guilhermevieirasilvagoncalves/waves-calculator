@@ -94,7 +94,7 @@ while True:
       [l] Comprimento de Onda = {1} m
       [k] Número de Ondas = {2}
       [w] Frequência Angular = {3}
-      """.format(np.format_float_scientific(f, precision       = 2, exp_digits = 1),           np.format_float_scientific(l, precision = 2, exp_digits =       1), np.format_float_scientific(k, precision = 2,         exp_digits = 1), np.format_float_scientific(w,           precision = 2, exp_digits = 1)))
+      """.format(np.format_float_scientific(f, precision = 2, exp_digits = 1), np.format_float_scientific(l, precision = 2, exp_digits = 1), np.format_float_scientific(k, precision = 2,exp_digits = 1), np.format_float_scientific(w, precision = 2, exp_digits = 1)))
   if N == 5 or N == 6:
     if N == 5:
       Em = D
@@ -110,4 +110,4 @@ while True:
   if N == 7:
     break
   if N > 7 or N < 0:
-    print("O valor digitado não correponde as opção disponíveis, por favor selecione outra opção.")
+    print("O valor digitado não corresponde as opções disponíveis, por favor selecione outra opção.")
