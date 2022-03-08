@@ -1,5 +1,5 @@
 import numpy as np
-# olha a onda olha a onda
+
 variable = {
   1: ["f", "Hz"],
   2: ["l", "m/s"],
