@@ -96,6 +96,7 @@ while True:
       [w] Frequência Angular = {3}
       """.format(np.format_float_scientific(f, precision = 2, exp_digits = 1), np.format_float_scientific(l, precision = 2, exp_digits = 1), np.format_float_scientific(k, precision = 2,exp_digits = 1), np.format_float_scientific(w, precision = 2, exp_digits = 1)))
   if N == 5 or N == 6:
+    D = float(input("Digite o valor para %s na unidade %s: "%(variable[N][0], variable[N][1])))
     if N == 5:
       Em = D
       Bm = Em/c
@@ -104,9 +105,9 @@ while True:
       Em = c * Bm
     print(
       """
-      [Em] Campo Elétrico = {0:.2f}
-      [Bm] Campo Magnético = {1:.2f}
-      """.format(Em, Bm))
+      [Em] Campo Elétrico = {0}
+      [Bm] Campo Magnético = {1}
+      """.format(np.format_float_scientific(Em, precision = 2, exp_digits = 1),np.format_float_scientific(Bm, precision = 2, exp_digits = 1)))
   if N == 7:
     break
   if N > 7 or N < 0:
