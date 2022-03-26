@@ -79,6 +79,7 @@ while True:
       k = (2 * pi) / l
       w = 2 * pi * f
     if N == 3:
+      k = D
       l = (2 * pi) / k
       w = k * c
       f = w / (2 * pi)
