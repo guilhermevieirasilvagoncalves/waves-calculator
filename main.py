@@ -1,5 +1,11 @@
 import numpy as np
 
+""""
+    @authors: Guilherme Vieira Silva Gonçalves, Kenzo Sugai
+    @course: Ciência da Computação, 3th semester
+    # ⌨️ with ❤️ using Visual Studio Code #
+"""
+
 variable = {
   1: ["f", "Hz"],
   2: ["l", "m/s"],
